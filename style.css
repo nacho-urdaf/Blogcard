@@ -1,3 +1,13 @@
+html{
+    height: 95vh;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
 p {
     margin: 0;
   }
@@ -9,6 +19,22 @@ p {
     padding: 16px 8px;
   }
   
+
+.main{
+    display: flex;
+    
+}
+main-img{
+    width: 30%;
+}
+
+.main img{
+    width: 30%;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+
   .header {
     display: flex;
     align-items: center;
@@ -32,9 +58,11 @@ p {
     font-family: Avenir;
     line-height: 1;
     margin: 12px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: ;
+    -webkit-box-orient: vertical;
   
     text-overflow: ellipsis;
-    white-space: nowrap;
     overflow: hidden;
   }
   
